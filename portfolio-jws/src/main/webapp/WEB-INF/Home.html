@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../resources/css/design.css">
+  <script src="../resources/js/jquery.min.js"></script>
+  <script src="../resources/js/bootstrap.min.js"></script>
+  <script src="../resources/js/controller.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script type="text/javascript" src="../resources/strings/strings.json"></script>
+  <script src="../resources/js/string.js"></script>
+ 
+  
+<title>Home | VAIBHAV SINGH</title>
+</head>
+<body style="width:100%" ng-app="myApp" ng-controller="myCtrl">
+<section class="m-ham" id="{{nav1}}">
+<div class="jumbotron text-left">
+	<div class="header">
+	  <h1>{{name}}</h1>
+	  <p>{{jobDesc}}</p>
+	</div>
+	<div class="hamb">
+	 	<a class="hamburger-menu">
+	  		<span class="glyphicon glyphicon-menu-hamburger cus" onclick="myFunctionHam(this);"></span>
+	  	</a>
+  	</div>
+</div>
+
+<div class="row well">
+	<div class="row">
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary" >{{nav1}}</button>
+	 		<button type="button" class="btn btn-primary" ng-click="goTo(nav2)">{{nav2}}</button>
+	  		<button type="button" class="btn btn-primary" ng-click="goTo(nav3)">{{nav3}}</button>
+	  		<button type="button" class="btn btn-primary" ng-click="goTo(nav4)">{{nav4}}</button>
+		</div>
+		<div class="btn-group pull-right">
+			<a target="_blank" href="https://www.facebook.com/Onyxvaibhav"><img src="../resources/images/fb.png"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/singhvaibhav98"><img src="../resources/images/linkedin.png"></a>
+		</div>
+	</div>
+  		<img class="center-block" src="../resources/images/main.jpg">
+</div>
+<div class="hamWrap">
+	<div class="tab" style="display: none">
+		<button type="button" class="tablinks btn btn-primary">{{nav1}}</button>
+		<button type="button" class="tablinks btn btn-primary" ng-click="goTo(nav2)">{{nav2}}</button>
+		<button type="button" class="tablinks btn btn-primary" ng-click="goTo(nav3)">{{nav3}}</button>
+		<button type="button" class="tablinks btn btn-primary" ng-click="goTo(nav4)">{{nav4}}</button>
+		<button type="button" class="tablinks btn btn-primary" ng-click="goTo(nav1)">
+			<a target="_blank" href="https://www.facebook.com/Onyxvaibhav"><img src="../resources/images/fb.png"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/singhvaibhav98"><img src="../resources/images/linkedin.png"></a>
+		</button> 
+	</div>
+</div>
+</section>
+<section id="{{nav2}}">
+<div class="tech-exp text-center">
+	<h1>{{nav2}}</h1>
+	<div class="table-responsive table-borderless">
+ 		 <table class="table table-borderless">
+    		<tr>
+    			<td>Automation Tools</td><td>Selenium, Appium, Perfecto, SeeTest</td>
+    		</tr>
+    		<tr>
+    			<td>Language </td><td>Java</td>
+    		</tr>
+    		<tr>
+    			<td>Operating System</td><td>Windows, MAC OS, Linux</td>
+    		</tr>
+    		<tr>
+    			<td>Code Management Tool</td><td>Git, SVN</td>
+    		</tr>
+    		<tr>
+    			<td>Continuous Integration Tool</td><td>Jenkins</td>
+    		</tr>
+    		<tr>
+    			<td>Test Management Tool</td><td>Jira, Confluence, Mantis</td>
+    		</tr>
+    		
+    	 </table>
+	</div>
+</div>
+</section>
+<section id="{{nav3}}">
+
+<div class="text-center" id="abme">
+	<h1>{{nav3}}</h1>
+	<p>An experienced Java Automation Test Engineer having 4.5 years of experience in Software Testing, with a good understanding of the entire Software Development Life Cycle and Software Testing Life Cycle, from specification through to delivery and commercial launch. Highly organized, good team player and ability to acquire new skills within short time scales and adapt to rapidly changing work environments.</p>
+</div>
+</section>
+
+<section id={{nav4}}>
+<div class="text-left" id="contactInfo">
+	<p>{{nav4}}</p>
+	<p>Phone : +91-8004318700/+91-8318441410</p>
+	<p>Email : vaibhavei2051@gmail.com</p>
+</div>
+</section>
+
+</body>
+</html>

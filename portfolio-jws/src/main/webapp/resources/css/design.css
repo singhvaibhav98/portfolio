@@ -1,0 +1,195 @@
+@charset "UTF-8";
+		.jumbotron
+		{
+			padding-top: 20px;
+			padding-bottom: 0px;
+			background-color: white;
+			margin-bottom : 0x;
+		}
+		.jumbotron h1, h1
+		{
+			font-size: 25px;
+			margin-top: 10px;
+		}
+		.well{
+			padding: calc(100% * 0.001);
+		}
+		.btn-group{
+			margin-left : calc(100% * 0.1);
+			padding-left : 0px;
+		}
+		.pull-right
+		{
+			padding-top : 1px;
+			margin-right : calc(100% * 0.1);
+			padding-right : 0px;
+		}
+		.center-block
+		{
+			--widthA : calc(100% * 0.1);
+			padding-top : calc(var(--widthA)*2/8);
+			padding-bottom : calc(var(--widthA)*2/8);
+			padding-left : calc(var(--widthA)*2/8);
+			padding-right : calc(var(--widthA)*2/8);
+			width: 100%;
+		}
+		#abme{
+			padding-top:10px;
+			padding-bottom:10px;
+		    background-color: azure;
+		}
+		#contactInfo, #contactInfo > p{
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		section, #abme
+		{
+			--widthA : calc(100% * 0.1);
+			padding-left : calc(var(--widthA)*2/8);
+			padding-right : calc(var(--widthA)*2/8);
+			width: 100%;
+		}
+		section img{
+			width: 40%;
+		}
+		.btn, .btn-primary {
+			color : gray;
+			background-color: transparent;
+			border: none
+		}
+		.btn-primary.focus, .btn-primary:focus , .btn-primary.hover, .btn-primary:hover , .btn-primary.active, .btn-primary:active {
+			color : gray;
+			background-color: transparent;
+			border: none;
+			outline-color: transparent;
+		}
+		.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+			color : black;
+			background-color: transparent;
+			border: none;
+			outline-color: transparent;
+		}
+		.hamburger-menu{
+			display: none;	
+		}
+		.table-responsive{
+			margin-left : calc(100% * 0.1);
+			margin-right : calc(100% * 0.1);
+			width: 80%;
+		}
+		td{
+		    word-wrap: break-word;
+		    white-space: pre-wrap; 
+		    white-space: -moz-pre-wrap; 
+		    white-space: -pre-wrap;
+		    white-space: normal !important;
+		    max-width: 80%;
+		    overflow: hidden;
+		   text-overflow: ellipsis; 
+		}
+		table {
+		  table-layout: fixed;
+		}
+		
+		.table-borderless > tbody > tr > td,
+		.table-borderless > tbody > tr > th,
+		.table-borderless > tfoot > tr > td,
+		.table-borderless > tfoot > tr > th,
+		.table-borderless > thead > tr > td,
+		.table-borderless > thead > tr > th,.table-borderless{
+		    border: none !important;
+		    text-align: left;
+		}
+
+		@media only screen and (max-device-width: 640px) {
+		.btn-group{
+			display: none;
+		}
+		.jumbotron
+		{
+			padding-top: 0x;
+			padding-bottom: 20px;
+			background-color: white;
+			margin-left : calc(100% * 0.1);
+			padding-left : 6px;
+			margin-right : calc(100% * 0.1);
+			padding-right : 6px;
+			margin-bottom : 5px;
+		}
+		.jumbotron div h1,  h1
+		{
+			font-size: 20px;
+			margin-top: -15px;
+		}
+		.jumbotron div p
+		{
+			font-size: 12px;
+			margin-top: 0px;
+		}
+		.header
+		{
+			position: absolute;
+		}
+		.hamb
+		{
+			position: relative;
+			margin-top: -5px;
+		}
+		.change 
+		{
+		    -webkit-transform: rotate(90deg) translate(-8px, -8px) ;
+		    transform: rotate(90deg);
+		    transform-origin :50% 50%;
+		}
+		.cus 
+		{
+			transition: 0.4s;	
+		}
+		.hamburger-menu
+		{
+			margin-right : 0px;
+			display: block;
+			text-align: right;
+		 	font-size: 25px;
+		}
+		.tab
+		{
+			float: right;
+		    width: 30%;
+		    height: 70%;
+		    z-index: 10;
+		}
+		.tablinks{
+			 background-color: #f1f1f1;
+			 border: 1px solid #ccc;
+		}
+		.row
+		{
+		   position: relative;
+		   z-index: -1;
+		}
+		.tablinks
+		{
+			width: 100%;
+		}
+		section
+		{
+			--widthA : calc(100% * 0.1);
+			padding-top : calc(var(--widthA)*1/8);
+			padding-bottom : calc(var(--widthA)*1/8);
+		}
+		.m-ham
+		{
+			--widthA : calc(100% * 0.1);
+			padding-top : calc(var(--widthA)*3/4);
+			padding-bottom : calc(var(--widthA)*1/8);
+		}
+		#abme{
+			padding-top:20px;
+			padding-bottom:10px;
+		    background-color: azure;
+		}
+		section img{
+			width: 20%;
+		}
+}

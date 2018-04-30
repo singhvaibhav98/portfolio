@@ -1,0 +1,8 @@
+data = {
+	"name"		: "VAIBHAV SINGH",
+	"jobDesc"	: "Automation Test IT Professional",
+	"nav1"		: "Home",
+	"nav2"		: "About",
+	"nav3"		: "Technical Expertise",
+	"nav4"		: "Contact"
+}
